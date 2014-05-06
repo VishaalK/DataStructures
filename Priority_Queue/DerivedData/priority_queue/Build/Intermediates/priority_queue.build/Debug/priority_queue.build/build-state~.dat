@@ -1,0 +1,92 @@
+Tpriority_queue
+v6
+r1
+cCheck dependencies
+cCompileC DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/main.o /Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/sorted_array.o /Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052C28C36000000000000044C
+t1388481590
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053225F5E00000000000001DE
+t1394761566
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053225F610000000000000ADC
+t1394761569
+s2780
+
+N/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/sorted_array.o
+t2
+s0
+
+N/Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp
+c000000005369572A000000000000014F
+t1399412522
+s335
+
+N/Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.cpp
+c00000000536956B50000000000000000
+t1399412405
+s0
+
+CBuild AST from /Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp
+r0
+
+CBuild AST from /Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd09c55b08e19b941^ef3a9fb08e19b941^---0#1#1#--18"Check dependencies36"8551EFF4-F29B-44FD-A332-6B3AA5EBB089-
+
+CCompileC DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/main.o /Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s421105328.859209
+e421105331.160652
+r0
+xCompileC
+xDerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/main.o
+x/Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp
+d/Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.h
+oIn file included from /Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp:10:
+o/Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.h:4:28: error: expected class name
+oclass sorted_array: public priority_queue {
+o                           ^
+o/Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.h:6:21: error: only virtual member functions can be marked 'override'
+o    ~sorted_array() override {};
+o                    ^~~~~~~~~
+o2 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp218"CompileC DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/main.o priority_queue/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler77830cb18e19b941^601f29b38e19b941^-514"In file included from /Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp:10:/Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.h:4:28: error: expected class nameclass sorted_array: public priority_queue {                           ^/Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.h:6:21: error: only virtual member functions can be marked 'override'    ~sorted_array() override {};                    ^~~~~~~~~2 errors generated.2(36%IDEClangDiagnosticActivityLogMessage2@19"Expected class name-421105331#18446744073709551615#0#1(2@98"In file included from /Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp:10:-421105331#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file:///Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp0000000000000000^9#9#9#9#174#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@85"file:///Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.h0000000000000000^3#27#3#27#74#0#11"Parse Issue--2@54"Only virtual member functions can be marked 'override'-421105331#18446744073709551615#0#1(2@98"In file included from /Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp:10:-421105331#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp0000000000000000^9#9#9#9#174#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@85"file:///Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.h0000000000000000^5#20#5#20#119#0#14"Semantic Issue1(3@85"file:///Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.h0000000000000000^5#20#5#29#119#9#-0#0#1#-19%DVTDocumentLocation4@79"file:///Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp0000000000000000^3560"CompileC DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/main.o priority_queue/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vk/Projects/DataStructures/priority_queue    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/vk/Projects/DataStructures/priority_queue/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/priority_queue-generated-files.hmap -I/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/priority_queue-own-target-headers.hmap -I/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/priority_queue-all-target-headers.hmap -iquote /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/priority_queue-project-headers.hmap -I/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/DerivedSources/x86_64 -I/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/DerivedSources -F/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Products/Debug -MMD -MT dependencies -MF /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/main.dia -c /Users/vk/Projects/DataStructures/priority_queue/priority_queue/main.cpp -o /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/main.o36"5709290B-04CF-4939-8D83-48D9B9949A72-
+bCCCC602C-ACEF-4676-8675-F64BCD446FE7
+
+CCompileC DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/sorted_array.o /Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s421105328.861064
+e421105330.078347
+r1
+xCompileC
+xDerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/sorted_array.o
+x/Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.cpp234"CompileC DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/sorted_array.o priority_queue/sorted_array.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler99830cb18e19b941^ae0e14b28e19b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.cpp0000000000000000^3608"CompileC DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/sorted_array.o priority_queue/sorted_array.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vk/Projects/DataStructures/priority_queue    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/vk/Projects/DataStructures/priority_queue/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/priority_queue-generated-files.hmap -I/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/priority_queue-own-target-headers.hmap -I/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/priority_queue-all-target-headers.hmap -iquote /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/priority_queue-project-headers.hmap -I/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/DerivedSources/x86_64 -I/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/DerivedSources -F/Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Products/Debug -MMD -MT dependencies -MF /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/sorted_array.d --serialize-diagnostics /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/sorted_array.dia -c /Users/vk/Projects/DataStructures/priority_queue/priority_queue/sorted_array.cpp -o /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Intermediates/priority_queue.build/Debug/priority_queue.build/Objects-normal/x86_64/sorted_array.o36"712ADAB9-1752-42B2-B546-8C1FCBCCAE5C-
+bCCCC602C-ACEF-4676-8675-F64BCD446FE7
+
+CLd /Users/vk/Projects/DataStructures/priority_queue/DerivedData/priority_queue/Build/Products/Debug/priority_queue normal x86_64
+r0
+
