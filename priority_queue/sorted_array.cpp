@@ -1,6 +1,7 @@
+#include <iostream>
+#include <new>
 #include "sorted_array.h"
 #include "Utility.h"
-#include <new>
 using namespace std;
 
 const int INIT_ARR_SIZE = 3;
@@ -12,11 +13,38 @@ sorted_array::~sorted_array() {
     sz = capacity = 0;
 }
 
-void sorted_array::push(int) {
+void sorted_array::push(int val_to_insert) {
+    if (sz == 0) {
+        elts[0] = val_to_insert;
+        sz++;
+        return;
+    }
+
     if (sz == capacity) {
         grow_array();
     }
-    // TODO binary search and insert into correct location
+    cout << "sz: " << sz << endl;
+    int low = 0;
+    int high = sz - 1;
+    int mid = low + (high - low)/2;
+    while (low <= high) {
+        mid = low + (high - low)/2;
+        int comp_val = elts[mid];
+        if (comp_val < val_to_insert) {
+            low = mid + 1;
+        } else if (comp_val > val_to_insert) {
+            high = mid - 1;
+        } else {
+            cout << comp_val << " == " << val_to_insert << endl;
+            break; //elt found at mid + 1
+        }
+    } 
+    // shift elts right from [mid + 1, end] to make room for new val
+    for (int i = sz; i > (high+1); --i) {
+        elts[i] = elts[i - 1];
+    }
+    elts[high + 1] = val_to_insert;
+    sz++;
     return;
 }
 
@@ -47,7 +75,14 @@ void sorted_array::clear() {
     capacity = INIT_ARR_SIZE;
 }
 
+void sorted_array::print() {
+    for (int i = 0; i < sz; ++i) {
+        cout << elts[i] << " ";
+    }
+    cout << "\n";
+}
 void sorted_array::grow_array() {
+    cout << "howdy doodly" << endl;
     int new_capacity = 2*capacity + 1;
     int* new_arr = new int[new_capacity];
     for (int i = 0; i < sz; ++i) {

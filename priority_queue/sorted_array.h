@@ -17,6 +17,8 @@ public:
     int size() override;
     
     void clear() override;
+
+    void print();
     
 private:
     int* elts;
