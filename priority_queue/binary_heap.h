@@ -1,12 +1,11 @@
 #ifndef BINARY_HEAP_H
 #define BINARY_HEAP_H
 #include "priority_queue.h"
+#include <vector>
 
 //template <typename T>
 class binary_heap: public priority_queue {
 public:
-	binary_heap();
-
 	void push(int) override;
 
 	int top() override;
@@ -21,15 +20,11 @@ public:
 
 	void print() override;
 private:
-	struct Node {
-		int data;
-		Node* left;
-		Node* right;
-		Node(): data(0), left(nullptr), right(nullptr) {}
-	};
+	vector<int> data;
 
-	Node* root;
-	int sz;	
+	void bubbleUp(int index);
+
+	void bubbleDown(int index);
 };
 
 #endif

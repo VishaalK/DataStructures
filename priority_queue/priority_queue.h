@@ -17,7 +17,7 @@ public:
 
     virtual void clear() = 0;
 
-    virtual void print() {};
+//    virtual void print() {};
 };
 
 #endif

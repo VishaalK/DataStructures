@@ -20,7 +20,7 @@ public:
 
     void clear() override;
 
-    void print();
+//  void print();
     
 private:
     int* elts;

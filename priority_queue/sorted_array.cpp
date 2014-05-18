@@ -62,6 +62,7 @@ void sorted_array::pop() {
     for (int i = 0; i < (sz - 1); ++i) {
         elts[i] = elts[i + 1];
     }
+    sz--;
 }
 
 int sorted_array::size() {
@@ -79,12 +80,13 @@ void sorted_array::clear() {
     capacity = INIT_ARR_SIZE;
 }
 
-void sorted_array::print() {
+/*void sorted_array::print() {
     for (int i = 0; i < sz; ++i) {
         cout << elts[i] << " ";
     }
     cout << "\n";
-}
+}*/
+
 void sorted_array::grow_array() {
     cout << "howdy doodly" << endl;
     int new_capacity = 2*capacity + 1;

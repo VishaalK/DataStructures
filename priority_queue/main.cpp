@@ -4,6 +4,7 @@
 #include "utility.h"
 using namespace std;
 
+void print_priority_queue(priority_queue*);
 
 int main(int argc, const char * argv[])
 {
@@ -27,8 +28,15 @@ int main(int argc, const char * argv[])
 		pq->push(i);
 	}
 	cout << "Size: " << pq->size() << endl;
-	pq->print();
+	print_priority_queue(pq);
 	std::cout << "Hello, World!\n";
 	return 0;
 }
 
+void print_priority_queue(priority_queue* pq) {
+	while (!pq->isEmpty()) {
+		cout << pq->top() << " ";
+		pq->pop();
+	}
+	cout << "\n";
+}

@@ -1,17 +1,18 @@
 #include "Utility.h"
 #include "binary_heap.h"
 
-binary_heap::binary_heap(): root(new Node()), sz(0) {}
-
+//gotta use the min-heap!!
 void binary_heap::push(int i) { 
-	//BUBBLE DOWN
+	//parent is (i - 1)/2
+	data.push(i);
+	bubbleUp(data.size() - 1);
 }
 
 int binary_heap::top() {
-	if (!root) {
+	if (!data.size()) {
 		throw Error("top() called on empty priority queue");
 	}
-	return root->data;
+	return data[0];
 }
 
 void binary_heap::pop() {
@@ -20,19 +21,28 @@ void binary_heap::pop() {
 }
 
 int binary_heap::size() {
-	return sz;
+	return data.size();
 }
 
 bool binary_heap::isEmpty() {
-	return !root;
+	return !data.size();
 }
 
 void binary_heap::clear() {
-	//recursively delete the elements?
+	data.clear();
 }
 
-void binary_heap::print() {
-	// in order traversal
+/*void binary_heap::print() {
+	//this'll be rough and tough
+}*/
+
+//private method implementations
+
+
+void binary_heap::bubbleUp(int index) {
+
 }
 
+void binary_heap::bubbleDown(int index) {
 
+}
