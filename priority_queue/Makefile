@@ -18,6 +18,9 @@ main.o: main.cpp
 sorted_array.o: priority_queue.h sorted_array.h sorted_array.cpp
 	$(CC) $(CFLAGS) sorted_array.cpp -o sorted_array.o
 
+binary_tree.o: priority_queue.h binary_tree.h binary_tree.cpp
+	$(CC) $(CFLAGS) binary_tree.cpp -o binary_tree.o
+
 real_clean:
 	rm -f *.exe
 	rm -f *.o
