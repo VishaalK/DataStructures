@@ -5,7 +5,7 @@ CFLAGS = -c -std=c++11 -Wall -Werror -pedantic
 LFLAGS = -std=c++11 -Wall -Werror 
 
 OBJS = sorted_array.o main.o
-PROG = main
+PROG = main.exe
 
 default: $(PROG)
 
@@ -18,8 +18,8 @@ main.o: main.cpp
 sorted_array.o: priority_queue.h sorted_array.h sorted_array.cpp
 	$(CC) $(CFLAGS) sorted_array.cpp -o sorted_array.o
 
-binary_tree.o: priority_queue.h binary_tree.h binary_tree.cpp
-	$(CC) $(CFLAGS) binary_tree.cpp -o binary_tree.o
+binary_heap.o: priority_queue.h binary_heap.h binary_heap.cpp
+	$(CC) $(CFLAGS) binary_heap.cpp -o binary_heap.o
 
 real_clean:
 	rm -f *.exe

@@ -68,6 +68,10 @@ int sorted_array::size() {
     return sz;
 }
 
+bool sorted_array::isEmpty() {
+	return !sz;
+}
+
 void sorted_array::clear() {
     delete[] elts;
     elts = new int[INIT_ARR_SIZE];

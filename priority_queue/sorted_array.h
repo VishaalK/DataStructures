@@ -15,7 +15,9 @@ public:
     void pop() override;
     
     int size() override;
-    
+   
+    bool isEmpty() override;
+
     void clear() override;
 
     void print();
